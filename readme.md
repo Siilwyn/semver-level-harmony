@@ -1,4 +1,6 @@
 # semver-level-harmony
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Siilwyn/semver-level-harmony.svg)](https://greenkeeper.io/)
 [![Travis Build Status][travis-icon]][travis]
 
 Compare if two semver version range levels are the same. The world is complex, sometimes dependencies rely on others to have the same version level. For example [Spectron](https://github.com/electron/spectron) expects [Electron](https://github.com/electron/electron) to have the same minor version. Testing if these two modules have the same minor version makes this implicit relation explicit, getting them in harmony.
