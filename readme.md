@@ -5,11 +5,12 @@ Compare if two semver version range levels are the same. The world is complex, s
 
 The module is smart enough to notice a range is too wide to compare on certain levels. For example comparing the minor level on `^1.2.3` is impossible since the installed version can go up to `1.9.9`.
 
-This module is small and simple with the downside being it only supports semver ranges with three defined numbers. This is a range you get when installing a module with npm.
+This module is small and simple with the downside being it only supports semver ranges with three defined numbers. This is a range you get by default when installing a module with the npm CLI.
 
 ## Usage
 `npm install semver-level-harmony --save-dev`
 
+Example testing Spectron and Electron minor version:
 ```js
 const assert = require('assert');
 const semverLevelHarmony = require('semver-level-harmony');
