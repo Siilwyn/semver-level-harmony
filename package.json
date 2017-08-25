@@ -2,26 +2,35 @@
   "name": "semver-level-harmony",
   "version": "1.0.0",
   "description": "Compare if two semver version range levels are the same.",
-  "main": "./src/main.js",
+  "main": "src/main.js",
+  "files": [
+    "src/main.js"
+  ],
   "scripts": {
     "test": "node ./src/test.js",
+    "test:ci": "npm test && npm run lint -- --list-different",
     "lint": "prettier --write --single-quote src/*.js",
-    "ci": "npm test && npm run lint -- --list-different",
     "preversion": "npm test",
     "postversion": "git push && git push --tags && npm publish"
   },
-  "keywords": [
-    "semver",
-    "level",
-    "harmony",
-    "sync"
-  ],
-  "author": "Selwyn <talk@selwyn.cc> (https://selwyn.cc/)",
-  "license": "GPL-3.0+",
   "dependencies": {
     "semver": "^5.3.0"
   },
   "devDependencies": {
     "prettier": "^1.4.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Siilwyn/semver-level-harmony.git"
+  },
+  "author": "Selwyn <talk@selwyn.cc> (https://selwyn.cc/)",
+  "license": "GPL-3.0+",
+  "keywords": [
+    "semver",
+    "level",
+    "harmony",
+    "compare",
+    "version",
+    "sync"
+  ]
 }

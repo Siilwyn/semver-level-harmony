@@ -1,11 +1,12 @@
 language: node_js
 
 node_js:
-  - '6'
-  - '4'
+  - 8
+  - 6
+  - 4
 
 script:
-  - 'npm run ci'
+  - npm run test:ci
 
 notifications:
   email: false
