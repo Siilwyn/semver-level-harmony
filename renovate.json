@@ -1,4 +1,8 @@
 {
   "pinVersions": false,
-  "schedule": ["on the last day of the month"]
+  "groupName": "all",
+  "schedule": ["before 8am on the first day of the month"],
+  "lockFileMaintenance": {
+    "schedule": ["before 8am on the first day of the month"]
+  }
 }
