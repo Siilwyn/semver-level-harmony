@@ -1,8 +1,3 @@
 {
-  "pinVersions": false,
-  "groupName": "all",
-  "schedule": ["before 8am on the first day of the month"],
-  "lockFileMaintenance": {
-    "schedule": ["before 8am on the first day of the month"]
-  }
+  "extends": ["config:semverAllMonthly"]
 }
