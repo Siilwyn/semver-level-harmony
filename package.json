@@ -4,7 +4,7 @@
   "description": "Compare if two semver version range levels are the same.",
   "main": "src/main.js",
   "files": [
-    "src/main.js"
+    "$npm_package_main"
   ],
   "scripts": {
     "test": "node ./src/test.js",
