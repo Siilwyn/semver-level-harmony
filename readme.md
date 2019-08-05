@@ -1,5 +1,7 @@
 # semver-level-harmony
 [![Travis Build Status][travis-icon]][travis]
+[![LGTM Grade][lgtm-icon]][lgtm]
+[![npm][npm-icon]][npm]
 
 Compare if two semver version range levels are the same. The world is complex, sometimes dependencies rely on others to have the same version level. For example [Spectron](https://github.com/electron/spectron) expects [Electron](https://github.com/electron/electron) to have the same minor version. Testing if these two modules have the same minor version makes this implicit relation explicit, getting them in harmony.
 
@@ -35,3 +37,7 @@ The version semver range.
 
 [travis]: https://travis-ci.org/Siilwyn/semver-level-harmony
 [travis-icon]: https://img.shields.io/travis/Siilwyn/semver-level-harmony/master.svg?style=flat-square
+[lgtm]: https://lgtm.com/projects/g/Siilwyn/semver-level-harmony/
+[lgtm-icon]: https://img.shields.io/lgtm/grade/javascript/g/Siilwyn/semver-level-harmony.svg?style=flat-square
+[npm]: https://www.npmjs.com/package/semver-level-harmony
+[npm-icon]: https://img.shields.io/npm/v/semver-level-harmony.svg?style=flat-square
