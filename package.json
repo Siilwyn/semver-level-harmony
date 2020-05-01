@@ -14,10 +14,10 @@
     "postversion": "git push --follow-tags && npm publish"
   },
   "dependencies": {
-    "semver": "^6.0.0"
+    "semver": "^7.0.0"
   },
   "devDependencies": {
-    "prettier": "^1.4.4"
+    "prettier": "^2.0.0"
   },
   "repository": {
     "type": "git",
