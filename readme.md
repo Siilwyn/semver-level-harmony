@@ -35,8 +35,8 @@ Version semver level: `major`, `minor` or `patch`.
 Type: `string`  
 The version semver range.
 
-[travis]: https://travis-ci.org/Siilwyn/semver-level-harmony
-[travis-icon]: https://img.shields.io/travis/Siilwyn/semver-level-harmony/master.svg?style=flat-square
+[travis]: https://travis-ci.com/Siilwyn/semver-level-harmony
+[travis-icon]: https://img.shields.io/travis/com/Siilwyn/semver-level-harmony/master.svg?style=flat-square
 [lgtm]: https://lgtm.com/projects/g/Siilwyn/semver-level-harmony/
 [lgtm-icon]: https://img.shields.io/lgtm/grade/javascript/g/Siilwyn/semver-level-harmony.svg?style=flat-square
 [npm]: https://www.npmjs.com/package/semver-level-harmony
