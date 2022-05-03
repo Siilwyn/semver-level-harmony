@@ -14,7 +14,7 @@
     "postversion": "git push --follow-tags && npm publish"
   },
   "dependencies": {
-    "semver": "^7.3.5"
+    "semver": "^7.3.7"
   },
   "devDependencies": {
     "prettier": "^2.4.1"
